@@ -1,5 +1,6 @@
-tax = 0.1
-pen_price = 100
-book_price = 3000
+japanese = 80
+english = 50
+math = 70
+average_score = (japanese + english + math) / 3
 
-puts "#{pen_price}円のペンの消費税は#{pen_price * tax}円、#{book_price}円の本の消費税は#{book_price * tax}円です。"
+puts "3教科の平均点は、#{average_score}点です" 
