@@ -1,6 +1,6 @@
-japanese = 80
-english = 50
-math = 70
-average_score = (japanese + english + math) / 3
+puts "あなたの名字を入力してください"
+last_name = gets.chomp
+puts "あなたの名前を入力してください"
+first_name = gets.chomp
 
-puts "3教科の平均点は、#{average_score}点です" 
+puts "私の名前は#{last_name + first_name}です。" 
