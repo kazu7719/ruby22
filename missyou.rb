@@ -1,6 +1,7 @@
-puts "あなたの名字を入力してください"
-last_name = gets.chomp
-puts "あなたの名前を入力してください"
-first_name = gets.chomp
+user = {name: "山田", age:20}
 
-puts "私の名前は#{last_name + first_name}です。" 
+
+user[:age] = 22
+user[:gender] = "男性"
+
+puts user
