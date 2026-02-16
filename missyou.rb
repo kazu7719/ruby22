@@ -1,8 +1,6 @@
-sum = 0
+number = 0
 
-10.times do |i|
-  sum = sum + i + 1
+while false
+  puts number
+  number += 1
 end
-
-puts sum
-
