@@ -1,7 +1,9 @@
-puts "あなたの名字を入力してください"
-last_name = gets.chomp
+input = gets.to_i
 
-puts "あなたの名前を入力してください"
-first_name = gets.chomp
-
-puts "私の名前は#{last_name + first_name}です。"
+if input <= 0
+  puts "0以下の数字です"
+elsif input >= 10
+  puts "10以上の数字です"
+else
+  puts "0より大きく10より小さい数字です"
+end
