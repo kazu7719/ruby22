@@ -1,6 +1,8 @@
-def double
-  num = gets.to_i
-  return num * 2
+class Human
+  def hello
+  puts "おはよう"
+   end
 end
 
-double
+human = Human.new
+human.hello
