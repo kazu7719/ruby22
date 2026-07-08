@@ -1,7 +1,6 @@
-sum = 0
-
-10.times do |i|
-  sum = sum + i + 1
+def double
+  num = gets.to_i
+  return num * 2
 end
 
-puts sum
+double
